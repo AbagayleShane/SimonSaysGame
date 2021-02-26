@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  background-color: #dddddd;
+}
+
+h2 {
+  font-family: "Audiowide", cursive;
+  font-size: 1.5rem;
+  color: #0f3057;
+  display: none;
+}
+p {
+  font-family: "Audiowide", cursive;
+  font-size: 15px;
+  color: #7e8a97;
+}
+
+#level-title {
+  font-family: "Faster One", cursive;
+  font-size: 3rem;
+  margin: 3%;
+  color: #0f3057;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid oldlace;
+  border-radius: 20%;
+  border-style: outset;
+}
+
+.game-over {
+  background-color: #f56a79;
+  opacity: 0.8;
+}
+
+.purple {
+  background-color: #b590ca;
+}
+
+.blue {
+  background-color: #a8d3da;
+}
+
+.orange {
+  background-color: #f5cab3;
+}
+
+.yellow {
+  background-color: #f3ecb8;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
